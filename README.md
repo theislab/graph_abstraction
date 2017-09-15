@@ -1,15 +1,15 @@
-## Graph abstraction relates subgroups of single cells
+# Graph abstraction relates subgroups of single cells
 
 
-### Illustration using simulated data
+### Minimal examples with known ground truth
 
-Correct reconstruction of a simulated hematopoietic lineage tree in the presence
-of disconnected clusters.
+In [*minimal_examples*](minimal_examples), we study minimal example datasets
+with known ground truth. In particular, a dataset that contains a tree-like
+continuous manifold and clusters. We discuss in detail how we measure
+robustness, how to reproduce figures of the paper and how competing algorithms
+perform.
 
 <img src="./sim_data/figures/aga_draw_graph_fr.png" height="200"><img src="./sim_data/figures/aga_graph.png" height="200">
-
-See [*sim_data*](sim_data) for details, robustness and how to reproduce Figure 1.
-
 
 ### Hematopoietic lineage trees
 
