@@ -32,34 +32,22 @@ In [*nestorowa16*](nestorowa16), we analyze data for early hematopoietic differe
 
 ### Lineage tree for whole cell atlas of an adult animal
 
-In [planaria](planaria), we reconstruct the lineage tree of the whole cell atlas
+In [*planaria*](planaria), we reconstruct the lineage tree of the whole cell atlas
 of planaria (Plass, Jordi *et al.*, in preparation, 2017).
 
 <img src="./planaria/figures/tsne.png" height="350"><img src="./planaria/figures/aga_graph.svg" height="450">
 
+### Deep Learning
+
+In [*deep_learning*](deep_learning), we use deep learning to generate a feature space and, by that, a distance metric, which induces a nearest-neighbor graph. For the problem of reconstructing cell-cycle [Eulenberg, Köhler, *et al.*, Nat. Commun. (2017)](https://doi.org/10.1101/081364), we find that graph abstraction correctly separates a small cluster of dead cells from the cell evolution through G1, S and G2 phase.
+
+<img src="./deep_learning/figures/aga.png" height="200">
+<img src="./deep_learning/figures/aga_cell_cycle_stages.png" height="200">
+
 ### PBMC cells
 
-All of the following datasets contain correct motifs of PBMC differentiation, but as they are quite strongly clustering, the global tree cannot be inferred.
+For all of the following scRNA-seq datasets ([3K](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k), [33K](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc33k) and [68K](https://doi.org/10.1038/ncomms14049) PBMC cells, all 10X Genomics), graph abstraction reconstructs correct lineage motifs. As the data is disconnected in large parts, a global lineage tree cannot be inferred.
 
-#### 3K cells from [10X (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k)
-
-<img src="./figs_pbmc3k/tsne.png" height="200"><img src="./figs_pbmc3k/aga_graph.png" height="220">
-
-For details, see [here](pbmc3k.html).
-
-#### 33K cells from [10X (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc33k)
-
-<img src="./figs_pbmc33k/tsne.png" height="200"><img src="./figs_pbmc33k/aga_graph.png" height="220">
-
-For details, see [here](pbmc33k.html).
-
-#### 68K cells from [Zheng *et al.* (2017)](https://doi.org/10.1038/ncomms14049)
-
-<img src="./figs_zheng17/tsne.png" height="200"><img src="./figs_zheng17/aga_graph.png" height="220">
-
-For details, see [here](zheng17.html).
-
-
-
-
-
+<img src="./pbmcs/figures/aga_pbmc3k.png" height="200">
+<img src="./pbmcs/figures/aga_pbmc33k.png" height="200">
+<img src="./pbmcs/figures/aga_pbmc68k.png" height="200">
