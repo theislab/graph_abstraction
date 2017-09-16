@@ -3,45 +3,43 @@
 
 ### Minimal examples with known ground truth
 
-In [*minimal_examples*](minimal_examples), we study minimal example datasets
+In [*minimal_examples*](minimal_examples), we study clean simulated datasets
 with known ground truth. In particular, a dataset that contains a tree-like
 continuous manifold and clusters. We discuss in detail how we measure
 robustness, how to reproduce figures of the paper and how competing algorithms
 perform.
 
-<img src="./sim_data/figures/aga_draw_graph_fr.png" height="200"><img src="./sim_data/figures/aga_graph.png" height="200">
+<img src="./minimal_examples/figures/aga_draw_graph_fr.png" height="200"><img src="./minimal_examples/figures/aga_graph.png" height="200">
 
 ### Hematopoietic lineage trees
 
+Here, we consider two well-studied datasets on hematopoietic differentiation.
+
 #### Data from [Paul *et al.* (2015)](http://doi.org/10.1016/j.cell.2015.11.01)
+
+In [*paul15*](paul15), we analyze data for myeloid progenitor development. This is the same
+data, which has served as benchmark for Monocle 2 [(Qiu *et al.*,
+  Nat. Meth., 2017)](https://doi.org/10.1038/nmeth.4402) and DPT [(Haghverdi *et al.*, Nat. Meth.,
+  2016)](https://doi.org/10.1038/nmeth.3971)
 
 <img src="./paul15/figures/draw_graph_fr.png" height="200"><img src="./paul15/figures/aga_graph.png" height="220">
 
-For details, see [here](./paul15/).
+#### Data from [Nestorowa, Hamey, *et al.* (2016)](http://doi.org/10.1182/blood-2016-05-716480)
 
-#### Data from [Nestorowa *et al.* (2016)](http://doi.org/10.1182/blood-2016-05-716480)
+In [*nestorowa16*](nestorowa16), we analyze data for early hematopoietic differentation.
 
 <img src="./nestorowa16/figures/draw_graph_fr.png" height="200"><img src="./nestorowa16/figures/aga_graph.png" height="220">
 
-For details, see [here](./nestorowa16).
+### Lineage tree for whole cell atlas of an adult animal
 
+In [planaria](planaria), we reconstruct the lineage tree of the whole cell atlas
+of planaria (Plass, Jordi *et al.*, in preparation, 2017).
 
-### Lineage tree of whole adult animal
-
-<img src="./figs_planaria/tsne.png" height="350"><img src="./figs_planaria/aga_graph.svg" height="450">
-
-For details, see [here](./planaria).
-
+<img src="./planaria/figures/tsne.png" height="350"><img src="./planaria/figures/aga_graph.svg" height="450">
 
 ### PBMC cells
 
-From the literature.
-
-<img src="./PBMCs_LineageTree.jpg" height="220">
-
-All of the following datasets contain correct motifs from this tree, but as they are quite strongly clustering, the global tree cannot be inferred.
-
-What would be needed would be data that contained all the intermediate states.
+All of the following datasets contain correct motifs of PBMC differentiation, but as they are quite strongly clustering, the global tree cannot be inferred.
 
 #### 3K cells from [10X (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k)
 
