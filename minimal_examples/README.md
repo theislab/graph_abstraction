@@ -15,16 +15,16 @@ Here, we study a simple, almost noise-free simulated dataset, which serves as a
 minimal example with an unambiguous ground truth
 ([*krumsiek11_blobs/X.csv*](comparisons/data/krumsiek11_blobs/X.csv)). The data
 contains two clusters and a continous tree-like manifold associated with
-simulated hematopoietic differentiation. Below, we reproduce the abstracted
-graph and the inferred tree of Figure 1 of the paper:
+[simulated hematopoietic
+differentiation](https://github.com/theislab/scanpy_usage/tree/master/170430_krumsiek11). Below,
+we reproduce the abstracted graph and the inferred tree of Figure 1 of the
+paper:
 
 <img src="./figures/aga_draw_graph_fr.png" height="200"><img src="./figures/aga_graph.png" height="200">
 
 ### Comparison with competing algorithms
 
-In [*comparisons*](comparisons), we show that no competing algorithm
-is able to produce a result for the minimal dataset that is even close to
-correct.
+In [*comparisons*](comparisons), we show that only graph abstraction provides meaningful results for the minimal datasets.
 
 ### Robustness
 
