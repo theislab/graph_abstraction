@@ -17,9 +17,9 @@
 
 Recall the example of a continuous tree-like manifold with clusters (Figure 1 of the paper, [*krumsiek11_blobs/X.csv*](data/krumsiek11_blobs/X.csv)). This data has a clearly defined ground truth and very little noise. The following shows the result by graph abstraction. The computation took 0.55 s.
 
-<img src="../figures/aga_draw_graph_fr.png" height="200"><img src="../figures/aga_graph.png" height="200">
+<img src="../figures/aga.png" height="200">
 
-Among the competing algorithms, only StemID 2, the successor of StemID [(Grün *et al.*, Cell Stem Cell, 2016)](https://doi.org/10.1016/j.stem.2016.05.010), is able to produce sensible results for this dataset. It produces a lineage tree that is partly correct (left panel) . The underlying sampled clusters and minimum spanning trees recognize one cluster as disconnected, but missinterpret the other cluster (right panel).
+Among the competing algorithms, only StemID 2, the successor of StemID [(Grün *et al.*, Cell Stem Cell, 2016)](https://doi.org/10.1016/j.stem.2016.05.010), is able to produce sensible results for this dataset. It produces a lineage tree that is partly correct (left panel) . The underlying sampled clusters and minimum spanning trees recognize one cluster as disconnected, but misinterpret the other cluster (right panel).
 
 <img src="./stemID/Rplots_X_krumsiek11_blobs_shifted_1.png" height="250"><img src="./stemID/Rplots_X_krumsiek11_blobs_shifted_2.png" height="250">
 

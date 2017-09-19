@@ -4,7 +4,7 @@
 
 ### Contents
 
-* [*sim_data*](sim_data.ipynb) contains the main results
+* [*minimal_examples*](minimal_examples.ipynb) contains the main results
 * [*robustness*](robustness.ipynb) studies the robustness of these results
 * [*comparisons*](comparisons) discusses results obtained with other algorithms
   ([*comparisons_exports*](comparisons_exports.ipynb) exports data)
@@ -20,7 +20,7 @@ differentiation](https://github.com/theislab/scanpy_usage/tree/master/170430_kru
 we reproduce the abstracted graph and the inferred tree of Figure 1 of the
 paper:
 
-<img src="./figures/aga_draw_graph_fr.png" height="200"><img src="./figures/aga_graph.png" height="200">
+<img src="./figures/aga.png" height="200">
 
 ### Comparison with competing algorithms
 
@@ -31,7 +31,7 @@ In [*comparisons*](comparisons), we show that only graph abstraction provides me
 If we change parameters in graph abstraction, we obtain seemingly very different
 abstractions of the data. Here, for a fine-grained resolution
 
-<img src="./figures/aga.png" height="200">
+<img src="./figures/aga_reference.png" height="200">
 
 and here, with a very coarse-grained resolution:
 
@@ -52,13 +52,13 @@ agree.
 For the simulated dataset, graph abstraction almost always yields the correct
 topology; no matter which parameters are chosen.
 
-<img src="./figures/summary.png" height="230">
+<img src="./figures/robustness_summary.png" height="230">
 
 See [*robustness*](robustness.ipynb) for all details.
 
 ### Different degrees of clustering
 
-In [*sim_data*](sim_data.ipynb), we also show how graph abstraction behaves on
+In [*minimal_examples*](minimal_examples.ipynb), we also show how graph abstraction behaves on
 data with different degrees of clustering.
 
 <img src="./figures/aga_cluster_std1.png" height="200">

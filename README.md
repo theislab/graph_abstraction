@@ -1,5 +1,8 @@
 # Graph abstraction relates subgroups of single cells
 
+This repository compiles all examples used in the publication and allows to reproduce results and figures.
+
+Graph abstraction is available within [Scanpy](https://scanpy.readthedocs.io).
 
 ### Minimal examples with known ground truth
 
@@ -9,7 +12,7 @@ continuous manifold and clusters. We discuss in detail how we measure
 robustness, how to reproduce figures of the paper and how competing algorithms
 perform.
 
-<img src="./minimal_examples/figures/aga_draw_graph_fr.png" height="200"><img src="./minimal_examples/figures/aga_graph.png" height="200">
+<img src="./minimal_examples/figures/aga.png" height="200">
 
 ### Hematopoietic lineage trees
 
@@ -22,20 +25,21 @@ data, which has served as benchmark for Monocle 2 [(Qiu *et al.*,
   Nat. Meth., 2017)](https://doi.org/10.1038/nmeth.4402) and DPT [(Haghverdi *et al.*, Nat. Meth.,
   2016)](https://doi.org/10.1038/nmeth.3971)
 
-<img src="./paul15/figures/draw_graph_fr.png" height="200"><img src="./paul15/figures/aga_graph.png" height="220">
+<img src="./paul15/figures/aga.png" height="200"><img src="./paul15/figures/aga_graph.png" height="200">
 
 #### Data from [Nestorowa, Hamey, *et al.* (2016)](http://doi.org/10.1182/blood-2016-05-716480)
 
 In [*nestorowa16*](nestorowa16), we analyze data for early hematopoietic differentation.
 
-<img src="./nestorowa16/figures/draw_graph_fr.png" height="200"><img src="./nestorowa16/figures/aga_graph.png" height="220">
+<img src="./nestorowa16/figures/aga.png" height="200">
+<img src="./nestorowa16/figures/aga_cell_types.png" height="200">
 
 ### Lineage tree for whole cell atlas of an adult animal
 
 In [*planaria*](planaria), we reconstruct the lineage tree of the whole cell atlas
 of planaria (Plass, Jordi *et al.*, in preparation, 2017).
 
-<img src="./planaria/figures/tsne.png" height="350"><img src="./planaria/figures/aga_graph.svg" height="450">
+<img src="./planaria/figures/aga.png" height="400">
 
 ### Deep Learning
 
