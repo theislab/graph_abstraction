@@ -1,0 +1,7 @@
+(cluster a, cluster b, a < b)			(value of the distance, number of occurrences)
+(1, 429250.0)	(3, 459550.0)	
+(1, 582400.0)	(3, 544000.0)	
+(2, 2068000.0)	
+(2, 646400.0)	
+(1, 1186750.0)	
+(1, 1504000.0)	

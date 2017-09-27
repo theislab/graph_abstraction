@@ -23,7 +23,7 @@ Among the competing algorithms, only StemID 2, the successor of StemID [(Grün *
 
 <img src="./stemID/Rplots_X_krumsiek11_blobs_shifted_1.png" height="250"><img src="./stemID/Rplots_X_krumsiek11_blobs_shifted_2.png" height="250">
 
-The stemID computation, including tSNE, ran for 17 min [(*stemID*)](stemID). Comparing this with 0.5 s for graph abstraction and 2.8 s for tSNE, both in Scanpy [(*../sim_data*)](../sim_data.ipynb), Scanpy is 309 times faster.
+The stemID computation, including tSNE, ran for 17 min [(*stemID*)](stemID). Comparing this with 0.5 s for graph abstraction and 2.8 s for tSNE, both in Scanpy ([*minimal_examples*](../minimal_examples.ipynb)), Scanpy is 309 times faster.
 
 Monocle 2 is highly sensitive to the clusters in the data and hence not able to produce any meaningful result for this data, regardless of the choice of parameters. The three branches in the Monocle tree correspond to the two clusters and the continuous manifold (coloring as in the Scanpy figure above and Figure 1 of the paper).
 
@@ -36,7 +36,7 @@ We could not produce any result neither with Eclair [(Giecold *et al.*,
   [(Haghverdi *et al.*, Nat. Meth., 2016)](https://doi.org/10.1038/nmeth.3971)
   for this dataset.
 
-### Reconstructing a simple tree
+#### Reconstructing a simple tree
 
 To obtain sensible results also with Monocle 2, Eclair and DPT, we considered a simpler dataset that only contains the continous tree-like manifold [*krumsiek11/X.csv*](data/krumsiek11/X.csv). The abstracted graph for this looks as follows:
 
