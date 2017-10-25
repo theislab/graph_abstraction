@@ -19,13 +19,13 @@ Recall the example of a continuous tree-like manifold with clusters (Figure 1 of
 
 <img src="../figures/aga.png" height="200">
 
-Among the competing algorithms, only StemID 2, the successor of StemID [(Grün *et al.*, Cell Stem Cell, 2016)](https://doi.org/10.1016/j.stem.2016.05.010), is able to produce sensible results for this dataset. It produces a lineage tree that is partly correct (left panel) . The underlying sampled clusters and minimum spanning trees recognize one cluster as disconnected, but misinterpret the other cluster (right panel).
+Among the competing algorithms, only StemID 2, the successor of StemID [(Grün *et al.*, Cell Stem Cell, 2016)](https://doi.org/10.1016/j.stem.2016.05.010), is able to produce sensible results for this dataset. It produces a lineage tree that is partly correct (left panel) . The underlying sampled clusters and minimum spanning trees recognize one cluster as disconnected, but misinterpret the other cluster (right panel). This is from Supplemental Figure 1 of the paper.
 
 <img src="./stemID/Rplots_X_krumsiek11_blobs_shifted_1.png" height="250"><img src="./stemID/Rplots_X_krumsiek11_blobs_shifted_2.png" height="250">
 
 The stemID computation, including tSNE, ran for 17 min [(*stemID*)](stemID). Comparing this with 0.5 s for graph abstraction and 2.8 s for tSNE, both in Scanpy ([*minimal_examples*](../minimal_examples.ipynb)), Scanpy is 309 times faster.
 
-Monocle 2 is highly sensitive to the clusters in the data and hence not able to produce any meaningful result for this data, regardless of the choice of parameters. The three branches in the Monocle tree correspond to the two clusters and the continuous manifold (coloring as in the Scanpy figure above and Figure 1 of the paper).
+Monocle 2 is highly sensitive to the clusters in the data and hence not able to produce any meaningful result for this data, regardless of the choice of parameters. The three branches in the Monocle tree correspond to the two clusters and the continuous manifold (coloring as graph abstraction result). This is from Supplemental Figure 1 of the paper.
 
 <img src="./figures/monocle2_with_blobs.png" height="300">
 

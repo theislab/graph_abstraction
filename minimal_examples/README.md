@@ -1,6 +1,6 @@
 *First compiled: September 13, 2017.*
 
-## Studying simple and clean simulated datasets
+## Minimal examples
 
 ### Contents
 
@@ -9,7 +9,7 @@
 * [*comparisons*](comparisons) discusses results obtained with other algorithms
   ([*comparisons_exports*](comparisons_exports.ipynb) exports data)
 
-### Summary Tree Inference
+### Inferring the abstracted graph
 
 Here, we study a simple, almost noise-free simulated dataset, which serves as a
 minimal example with an unambiguous ground truth
@@ -17,14 +17,14 @@ minimal example with an unambiguous ground truth
 contains two clusters and a continous tree-like manifold associated with
 [simulated hematopoietic
 differentiation](https://github.com/theislab/scanpy_usage/tree/master/170430_krumsiek11). Below,
-we reproduce the abstracted graph and the inferred tree of Figure 1 of the
+we reproduce the abstracted graph and the inferred tree of Supplemental Figure 6 of the
 paper:
 
 <img src="./figures/aga.png" height="200">
 
-### Comparison with competing algorithms
+### Comparison with other algorithms
 
-In [*comparisons*](comparisons), we show that only graph abstraction provides meaningful results for the minimal datasets.
+In [*comparisons*](comparisons), we show that only graph abstraction provides meaningful results for the minimal dataset.
 
 ### Robustness
 

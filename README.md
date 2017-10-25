@@ -1,16 +1,20 @@
-# Graph abstraction relates subgroups of single cells
+# Graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells
 
-This repository compiles all examples used in the publication and allows to reproduce results and figures.
+This repository allows to reproduce analyses and figures of the preprint.
 
-Graph abstraction is available within [Scanpy](https://scanpy.readthedocs.io).
+Graph abstraction is available within
+[Scanpy](https://scanpy.readthedocs.io). The three central toplevel functions
+are
+* [`scanpy.api.tools.aga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.aga.html)
+* [`scanpy.api.plotting.aga_graph`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.aga_graph.html)
+* [`scanpy.api.plotting.aga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.aga_path.html)
+
 
 ### Minimal examples with known ground truth
 
 In [*minimal_examples*](minimal_examples), we study clean simulated datasets
 with known ground truth. In particular, a dataset that contains a tree-like
-continuous manifold and clusters. We discuss in detail how we measure
-robustness, how to reproduce figures of the paper and how competing algorithms
-perform.
+continuous manifold and disconnected clusters.
 
 <img src="./minimal_examples/figures/aga.png" height="200">
 
@@ -25,14 +29,13 @@ data, which has served as benchmark for Monocle 2 [(Qiu *et al.*,
   Nat. Meth., 2017)](https://doi.org/10.1038/nmeth.4402) and DPT [(Haghverdi *et al.*, Nat. Meth.,
   2016)](https://doi.org/10.1038/nmeth.3971)
 
-<img src="./paul15/figures/aga.png" height="200"><img src="./paul15/figures/aga_graph.png" height="200">
+<img src="./paul15/figures/aga_gephi.png" height="200">
 
-#### Data from [Nestorowa, Hamey, *et al.* (2016)](http://doi.org/10.1182/blood-2016-05-716480)
+#### Data from [Nestorowa, Hamey *et al.* (2016)](http://doi.org/10.1182/blood-2016-05-716480)
 
 In [*nestorowa16*](nestorowa16), we analyze data for early hematopoietic differentation.
 
-<img src="./nestorowa16/figures/aga.png" height="200">
-<img src="./nestorowa16/figures/aga_cell_types.png" height="200">
+<img src="./nestorowa16/figures/aga_gephi.png" height="200">
 
 ### Lineage tree for whole cell atlas of an adult animal
 
@@ -50,8 +53,7 @@ In [*deep_learning*](deep_learning), we use deep learning to generate a feature 
 
 ### PBMC cells
 
-For all of the following scRNA-seq datasets ([3K](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k), [33K](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc33k) and [68K](https://doi.org/10.1038/ncomms14049) PBMC cells, all 10X Genomics), graph abstraction reconstructs correct lineage motifs. As the data is disconnected in large parts, a global lineage tree cannot be inferred.
+For all of the following scRNA-seq datasets ([3K](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k) and [68K](https://doi.org/10.1038/ncomms14049) PBMC cells, all 10X Genomics), graph abstraction reconstructs correct lineage motifs. As the data is disconnected in large parts, a global lineage tree cannot be inferred.
 
 <img src="./pbmcs/figures/aga_pbmc3k.png" height="200">
-<img src="./pbmcs/figures/aga_pbmc33k.png" height="200">
 <img src="./pbmcs/figures/aga_pbmc68k.png" height="200">
