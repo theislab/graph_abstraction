@@ -18,7 +18,7 @@ continuous manifold and disconnected clusters.
 
 <img src="./minimal_examples/figures/aga.png" height="200">
 
-### Hematopoietic lineage trees
+### Differentiation manifolds in hematopoiesis
 
 Here, we consider two well-studied datasets on hematopoietic differentiation.
 
