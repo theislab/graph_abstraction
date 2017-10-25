@@ -40,7 +40,7 @@ In [*nestorowa16*](nestorowa16), we analyze data for early hematopoietic differe
 ### Lineage tree for whole cell atlas of an adult animal
 
 In [*planaria*](planaria), we reconstruct the lineage tree of the whole cell atlas
-of planaria (Plass, Jordi *et al.*, in preparation, 2017).
+of planaria (Plass, Jordi *et al.*, submitted, 2017).
 
 <img src="./planaria/figures/aga.png" height="400">
 
