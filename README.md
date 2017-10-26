@@ -1,10 +1,10 @@
 # Graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells
 
-This repository allows to reproduce analyses and figures of the preprint.
+This repository allows to reproduce analyses and figures of the [preprint](https://doi.org/10.1101/208819).
 
 Graph abstraction is available within
-[Scanpy](https://scanpy.readthedocs.io). The three central toplevel functions
-are
+[Scanpy](https://scanpy.readthedocs.io). Central toplevel functions
+are:
 * [`scanpy.api.tools.aga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.aga.html)
 * [`scanpy.api.plotting.aga_graph`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.aga_graph.html)
 * [`scanpy.api.plotting.aga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.aga_path.html)
@@ -27,7 +27,7 @@ Here, we consider two well-studied datasets on hematopoietic differentiation.
 In [*paul15*](paul15), we analyze data for myeloid progenitor development. This is the same
 data, which has served as benchmark for Monocle 2 [(Qiu *et al.*,
   Nat. Meth., 2017)](https://doi.org/10.1038/nmeth.4402) and DPT [(Haghverdi *et al.*, Nat. Meth.,
-  2016)](https://doi.org/10.1038/nmeth.3971)
+  2016)](https://doi.org/10.1038/nmeth.3971).
 
 <img src="./paul15/figures/aga_gephi.png" height="200">
 
