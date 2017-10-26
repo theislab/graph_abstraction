@@ -18,6 +18,8 @@ continuous manifold and disconnected clusters.
 
 <img src="./minimal_examples/figures/aga.png" height="200">
 
+<img src="./minimal_examples/figures/aga_cluster_std1.png" height="120"><img src="./minimal_examples/figures/aga_cluster_std6.png" height="120"><img src="./minimal_examples/figures/aga_cluster_std10.png" height="120">
+
 ### Differentiation manifolds in hematopoiesis
 
 Here, we consider two well-studied datasets on hematopoietic differentiation.
