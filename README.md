@@ -14,11 +14,13 @@ are:
 
 In [*minimal_examples*](minimal_examples), we study clean simulated datasets
 with known ground truth. In particular, a dataset that contains a tree-like
-continuous manifold and disconnected clusters.
+continuous manifold and disconnected clusters...
 
 <img src="./minimal_examples/figures/aga.png" height="200">
 
-<img src="./minimal_examples/figures/aga_cluster_std1.png" height="120"><img src="./minimal_examples/figures/aga_cluster_std6.png" height="120"><img src="./minimal_examples/figures/aga_cluster_std10.png" height="120">
+... and simple datasets that illustrate connectivity patterns of clusters.
+
+<img src="./minimal_examples/figures/aga_cluster_std1.png" height="130"><img src="./minimal_examples/figures/aga_cluster_std6.png" height="130"><img src="./minimal_examples/figures/aga_cluster_std10.png" height="130">
 
 ### Differentiation manifolds in hematopoiesis
 
