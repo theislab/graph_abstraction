@@ -2,7 +2,7 @@
 
 ## Graph abstraction for data of [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013)
 
-Here, we trace myeloid differentiation for data of [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013).
+Here, we trace myeloid differentiation for data of [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013). Data is available from the original publication, or for convenience, within Scanpy as [`scanpy.api.datasets.paul15`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.datasets.paul15.html) or as an RData from https://github.com/theislab/scAnalysisTutorial.
 
 ### Contents
 
