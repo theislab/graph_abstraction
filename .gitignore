@@ -1,6 +1,7 @@
 # additional stuff
 .RData*
 .Rhistory*
+*.pdf
 
 # Scanpy
 .scanpy

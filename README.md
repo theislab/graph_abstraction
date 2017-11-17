@@ -1,14 +1,22 @@
 # Graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells
 
-This repository allows to reproduce analyses and figures of the [preprint](https://doi.org/10.1101/208819).
-
 Graph abstraction is available within
 [Scanpy](https://scanpy.readthedocs.io). Central toplevel functions
 are:
-* [`scanpy.api.tools.aga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.aga.html)
-* [`scanpy.api.plotting.aga_graph`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.aga_graph.html)
-* [`scanpy.api.plotting.aga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.aga_path.html)
+* [`scanpy.api.tools.aga`](https://scanpy.readthedocs.io/en/stable/api/scanpy.api.tl.aga.html)
+* [`scanpy.api.plotting.aga_graph`](https://scanpy.readthedocs.io/en/stable/api/scanpy.api.pl.aga_graph.html)
+* [`scanpy.api.plotting.aga_path`](https://scanpy.readthedocs.io/en/stable/api/scanpy.api.pl.aga_path.html)
 
+This repository allows to reproduce analyses and figures of the
+[preprint](https://doi.org/10.1101/208819); all the analysis were done using
+Scanpy 0.2.9.
+
+In the meanwhile, we improved Scanpy's implementation with respect to
+maintainance and stability aspects. The results obtained with Scanpy 0.3 are
+exactly the same as those with 0.2.9, even though the layout of figures changed
+slightly. Use GitHub's history button to see previous notebooks and plots.
+
+Upgrade using `pip install scanpy==0.3`.
 
 ### Minimal examples with known ground truth
 
@@ -17,10 +25,13 @@ with known ground truth. In particular, a dataset that contains a tree-like
 continuous manifold and disconnected clusters...
 
 <img src="./minimal_examples/figures/aga.png" height="200">
+<img src="./minimal_examples/figures/aga_path.png" height="150">
 
 ... and simple datasets that illustrate connectivity patterns of clusters.
 
 <img src="./minimal_examples/figures/aga_cluster_std1.png" height="130"><img src="./minimal_examples/figures/aga_cluster_std6.png" height="130"><img src="./minimal_examples/figures/aga_cluster_std10.png" height="130">
+
+Also, you find an explanation of how to [*zoom in*](minimal_examples/#zooming-into-particular-regions-of-the-data) into particular regions of the dataset.
 
 ### Differentiation manifolds in hematopoiesis
 
@@ -29,24 +40,26 @@ Here, we consider two well-studied datasets on hematopoietic differentiation.
 #### Data from [Paul *et al.* (2015)](http://doi.org/10.1016/j.cell.2015.11.01)
 
 In [*paul15*](paul15), we analyze data for myeloid progenitor development. This is the same
-data, which has served as benchmark for Monocle 2 [(Qiu *et al.*,
+data that has served as benchmark for Monocle 2 [(Qiu *et al.*,
   Nat. Meth., 2017)](https://doi.org/10.1038/nmeth.4402) and DPT [(Haghverdi *et al.*, Nat. Meth.,
   2016)](https://doi.org/10.1038/nmeth.3971).
 
-<img src="./paul15/figures/aga_gephi.png" height="200">
+<img src="./paul15/figures/aga_gephi.svg" height="200">
+<img src="./paul15/figures/aga_path.svg" height="150">
 
 #### Data from [Nestorowa, Hamey *et al.* (2016)](http://doi.org/10.1182/blood-2016-05-716480)
 
 In [*nestorowa16*](nestorowa16), we analyze data for early hematopoietic differentation.
 
-<img src="./nestorowa16/figures/aga_gephi.png" height="200">
+<img src="./nestorowa16/figures/aga_gephi_inkscape.svg" height="200">
+<img src="./nestorowa16/figures/aga_path.svg" height="150">
 
 ### Lineage tree for whole cell atlas of an adult animal
 
 In [*planaria*](planaria), we reconstruct the lineage tree of the whole cell atlas
 of planaria (Plass, Jordi *et al.*, submitted, 2017).
 
-<img src="./planaria/figures/aga.png" height="400">
+<img src="./planaria/figures/aga.svg" height="400">
 
 ### Deep Learning
 

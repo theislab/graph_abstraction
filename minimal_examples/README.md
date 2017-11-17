@@ -26,6 +26,16 @@ paper:
 
 In [*comparisons*](comparisons), we show that only graph abstraction provides meaningful results for the minimal dataset.
 
+### Zooming into particular regions of the data
+
+Also in [*minimal_examples*](minimal_examples.ipynb), it is shown how to start with a coarse grained view of the data
+
+<img src="./figures/aga_coarse.svg" height="200">
+
+and zoom into particular regions.
+
+<img src="./figures/aga_coarse_R.svg" height="200">
+
 ### Robustness
 
 If we change parameters in graph abstraction, we obtain seemingly very different
