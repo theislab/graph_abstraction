@@ -40,6 +40,8 @@ data that has served as benchmark for Monocle 2 [(Qiu *et al.*,
   Nat. Meth., 2017)](https://doi.org/10.1038/nmeth.4402) and DPT [(Haghverdi *et al.*, Nat. Meth.,
   2016)](https://doi.org/10.1038/nmeth.3971).
 
+**Note**: Unfortunately, Firefox does not display the svg heatmaps properly, all other browers do.
+
 <img src="./paul15/figures/aga_gephi.svg" height="200">
 <img src="./paul15/figures/aga_path.svg" height="150">
 
