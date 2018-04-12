@@ -1,18 +1,15 @@
 # Graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells
 
 Graph abstraction is available within
-[Scanpy](https://scanpy.readthedocs.io). Central toplevel functions
-are:
-* [`scanpy.api.tools.aga`](https://scanpy.readthedocs.io/en/stable/api/scanpy.api.tl.aga.html)
-* [`scanpy.api.plotting.aga_graph`](https://scanpy.readthedocs.io/en/stable/api/scanpy.api.pl.aga_graph.html)
-* [`scanpy.api.plotting.aga_path`](https://scanpy.readthedocs.io/en/stable/api/scanpy.api.pl.aga_path.html)
+[Scanpy](https://scanpy.readthedocs.io). Central toplevel functions are:
+* [`scanpy.api.tools.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html)
+* [`scanpy.api.plotting.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html)
+* [`scanpy.api.plotting.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html)
+* [`scanpy.api.plotting.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html)
 
 This repository allows to reproduce analyses and figures of the
-[preprint](https://doi.org/10.1101/208819); all the analysis were done using
-Scanpy 0.2.9. The results obtained in later versions of Scanpy - much improved
-in stability and consistency etc. - are exactly the same as those with 0.2.9,
-even though the layout of figures changed. Use GitHub's history button if you
-want to see earlier versions.
+[preprint](https://doi.org/10.1101/208819) - the analysis was done using Scanpy
+0.2.9.
 
 ### Minimal examples with known ground truth
 
