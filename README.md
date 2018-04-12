@@ -7,9 +7,14 @@ Graph abstraction is available within
 * [`scanpy.api.plotting.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html)
 * [`scanpy.api.plotting.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html)
 
-This repository allows to reproduce analyses and figures of the
-[preprint](https://doi.org/10.1101/208819) - the analysis was done using Scanpy
-0.2.9.
+Central example notebooks are
+
+* [*minimal_examples*](https://nbviewer.jupyter.org/github/theislab/graph_abstraction/blob/master/minimal_examples/minimal_examples.ipynb): minimal simulated examples
+* [*paul15*](https://nbviewer.jupyter.org/github/theislab/graph_abstraction/blob/master/paul15/paul15.ipynb): myeloid progenitor development
+* [*nestorowa16*](https://nbviewer.jupyter.org/github/theislab/graph_abstraction/blob/master/nestorowa16/nestorowa16.ipynb): early hematopoietic differentation
+* [*planaria*](https://nbviewer.jupyter.org/github/rajewsky-lab/planarian_lineages/blob/master/paga/planaria.ipynb): the planarian lineage tree (see [*planarian_lineages*](https://github.com/rajewsky-lab/planarian_lineages))
+
+More details follow below.
 
 ### Minimal examples with known ground truth
 
