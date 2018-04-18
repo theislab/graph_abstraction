@@ -1,6 +1,6 @@
 # Graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells
 
-Graph abstraction is available within
+*Partition-based graph abstraction* (PAGA) is available within
 [Scanpy](https://scanpy.readthedocs.io). Central toplevel functions are:
 * [`scanpy.api.tools.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html)
 * [`scanpy.api.plotting.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html)
@@ -12,9 +12,9 @@ Central example notebooks are
 * [*minimal_examples*](https://nbviewer.jupyter.org/github/theislab/graph_abstraction/blob/master/minimal_examples/minimal_examples.ipynb): minimal simulated examples
 * [*paul15*](https://nbviewer.jupyter.org/github/theislab/graph_abstraction/blob/master/paul15/paul15.ipynb): myeloid progenitor development
 * [*nestorowa16*](https://nbviewer.jupyter.org/github/theislab/graph_abstraction/blob/master/nestorowa16/nestorowa16.ipynb): early hematopoietic differentation
-* [*planaria*](https://nbviewer.jupyter.org/github/rajewsky-lab/planarian_lineages/blob/master/paga/planaria.ipynb): the planarian lineage tree (see [*planarian_lineages*](https://github.com/rajewsky-lab/planarian_lineages))
+* [*planaria*](https://nbviewer.jupyter.org/github/rajewsky-lab/planarian_lineages/blob/master/paga/preprocessing.ipynb): the planarian lineage tree (see [*planarian_lineages*](https://github.com/rajewsky-lab/planarian_lineages))
 
-More details follow below.
+The example figures that follow below represent the results of an earlier implementation of PAGA. We will soon update this - however, results changed only superficially.
 
 ### Minimal examples with known ground truth
 
