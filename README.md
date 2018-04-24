@@ -16,6 +16,8 @@ Central example notebooks are
 
 The example figures that follow below represent the results of an earlier implementation of PAGA. We will soon update this - however, results changed only superficially.
 
+Our preprint will soon be updated but contains the essential ideas: [Wolf *et al.*, bioRxiv (2017)](https://doi.org/10.1101/208819).
+
 ### Minimal examples with known ground truth
 
 In [*minimal_examples*](minimal_examples), we study clean simulated datasets
